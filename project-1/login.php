@@ -107,7 +107,7 @@
             $row = mysqli_fetch_assoc($res);
 
             if($row) {
-                header('Location: index.php');
+                header('Location: index.html');
                 exit;
             } else {
                 echo "<script>alert('Invalid username or password');</script>";
